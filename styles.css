@@ -1,0 +1,289 @@
+body {
+  background-color: rgb(207, 207, 207);
+  font-family: "Philosopher", sans-serif;
+}
+
+.first-menu {
+  background-color: rgb(98, 26, 95);
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.8rem;
+  font-style: italic;
+  min-height: 40px;
+}
+
+.second-menu {
+  background-color: rgb(216, 202, 210);
+  min-height: 100px;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+.a-first-menu,
+.a-footer,
+.a-contacts {
+  color: white;
+}
+
+.a-first-menu:hover,
+.a-footer:hover,
+.a-contacts:hover {
+  color: rgb(216, 202, 210);
+}
+
+.nav-item {
+  padding-left: 70px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  align-items: center;
+  display: flex;
+}
+
+.navbar .nav-item:hover .nav-link {
+  color: rgb(98, 26, 95);
+}
+
+.navbar .material-icons {
+  padding-left: 6px;
+  margin: 0;
+}
+
+.card-box {
+  margin-top: 20px;
+  background-color: rgb(216, 202, 210);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.excursion-card {
+  margin: 14px;
+}
+
+.excursion {
+  background-color: rgb(98, 26, 95);
+  border-radius: 5px;
+  min-height: 23rem;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.card-link {
+  color: rgb(171, 196, 255);
+  font-style: italic;
+}
+
+.card-link:hover {
+  color: rgb(216, 202, 210);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-subtitle {
+  color: rgb(171, 196, 255);
+  font-style: italic;
+  text-align: center;
+}
+
+.badge {
+  border: 2px solid;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.carousel {
+  padding-top: 20px;
+}
+
+.d-block {
+  border-radius: 5px;
+}
+
+.carousel-1,
+.carousel-2,
+.carousel-3 {
+  background: linear-gradient(to bottom, rgba(216, 202, 210, 0.75), rgba(98, 26, 95, 0.75));
+}
+
+.pic-1,
+.pic-3 {
+  color: black;
+}
+
+.pic-2 {
+  color: white;
+}
+
+.metro {
+  margin-top: 1.5rem;
+  background-image: url(pic/metro.jpg);
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.metro-box {
+  max-width: 50rem;
+  height: auto;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: rgba(98, 26, 95, 0.8);
+  box-shadow: 0 0 40px 40px rgb(216, 202, 210, 0.8);
+  color: rgb(171, 196, 255);
+  font-size: 5rem;
+}
+
+.services-body {
+  background-color: rgb(216, 202, 210);
+  border-radius: 5px;
+  min-height: 23rem;
+  font-size: 1.3rem;
+  color: black;
+  cursor: pointer;
+}
+
+.services-body:hover {
+  background-color: rgb(171, 196, 255);
+  color: rgb(98, 26, 95);
+}
+
+.services-card {
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: 2px solid rgb(98, 26, 95);
+}
+
+.card-icon {
+  font-size: 6rem;
+  color: rgb(98, 26, 95);
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.calc-header {
+  font-size: 4rem;
+  font-style: italic;
+  color: rgb(98, 26, 95);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+input,
+button {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 40px;
+}
+
+input:focus {
+  outline: rgb(171, 196, 255);
+  border-color: rgb(171, 196, 255);
+}
+
+button {
+  background-color: rgb(98, 26, 95);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+button:hover,
+.call-btn:hover {
+  cursor: pointer;
+  filter: contrast(150%);
+  color: rgb(171, 196, 255);
+  transition: all 1s;
+}
+
+.calc input {
+  margin-bottom: 10px;
+}
+
+.calc-input-dsc {
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding-left: 2rem;
+}
+
+.result {
+  border: 3px solid rgb(98, 26, 95);
+  border-radius: 40px;
+  background-color: rgb(171, 196, 255);
+  font-size: 2rem;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-call {
+  border-radius: 10px;
+  border: 2px solid rgb(98, 26, 95);
+}
+
+.call {
+  background-color: rgb(216, 202, 210);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(216, 202, 210);
+}
+
+.form-control {
+  border-radius: 30px;
+}
+
+.call-btn {
+  background-color: rgb(98, 26, 95);
+  color: white;
+  border-radius: 30px;
+}
+
+.footer {
+  background-color: rgb(98, 26, 95);
+  color: white;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.footer-row {
+  padding-top: 3rem;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.copy {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.info {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 2rem;
+}
